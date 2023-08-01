@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <link rel="stylesheet" href="Weather.css">
+
+    <title>Weather App</title>
+</head>
+
+<body onload="DefaultScreen()">
+    <div class="header">
+        <h1 id="info">7 Days Weather Forecast</h1>
+        <p id="inputContainer"> <input type="text" id="cityInput"></p>
+        <a href="#" style="--clr: blue"><span onclick="GetInfo()">Click Here</span><i></i></a>
+        <h2 id="cityName">---London---</h2>
+    </div>
+
+
+    <div class="iconsContainer" id="iconsContainer">
+        <div class="icons">
+            <p class="weather" id="day1"></p>
+            <div class="image"><img src="https://img.icons8.com/bubbles/344/clouds.png" class="imgClass" id="img1">
+            </div>
+            <p class="minValues" id="day1Min">Loading...</p>
+            <p class="maxValues" id="day1Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day2"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+            <p class="minValues" id="day2Min">Loading...</p>
+            <p class="maxValues" id="day2Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day3"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+            <p class="minValues" id="day3Min">Loading...</p>
+            <p class="maxValues" id="day3Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day4"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+            <p class="minValues" id="day4Min">Loading...</p>
+            <p class="maxValues" id="day4Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day5"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+            <p class="minValues" id="day5Min">Loading...</p>
+            <p class="maxValues" id="day5Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day6"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img6"></div>
+            <p class="minValues" id="day6Min">Loading...</p>
+            <p class="maxValues" id="day6Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day7"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img7"></div>
+            <p class="minValues" id="day7Min">Loading...</p>
+            <p class="maxValues" id="day7Max">Loading...</p>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="Weather.js"></script>
+
+
+</body>
+
+</html>
